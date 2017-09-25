@@ -13,28 +13,25 @@
 *    }
 *
 */
-
 import java.util.ArrayList;
 public class Solution {
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         int[] value=new int[100];
         int i=0;
         ArrayList<Integer> a = new ArrayList<Integer>();
-        if(listNode==null){
-            return a;
-        }
-        while(listNode.next!=null){
+        if(listNode!=null){
+            while(listNode.next!=null){
+                value[i]=listNode.val;
+                i++;
+                listNode=listNode.next;
+            }
             value[i]=listNode.val;
-            i++;
-            listNode=listNode.next;
-        }
-        value[i]=listNode.val;
-        
-        do{
-            a.add(value[i]);
-            i--;
-        }while(i>=0);
-            
+
+            do{
+                a.add(value[i]);
+                i--;
+            }while(i>=0);
+        }    
         return a;
     }
 }
