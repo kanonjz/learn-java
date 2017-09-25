@@ -35,3 +35,28 @@ public class Solution {
         return a;
     }
 }
+
+
+
+//version 2.0
+//备注：使用栈
+import java.util.ArrayList;
+import java.util.Stack;
+public class Solution {
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+        Stack<Integer> s = new Stack<>();
+        ArrayList<Integer> newList = new ArrayList<>();
+        ListNode t = listNode;
+       
+        while( t != null ){
+                
+            s.push(t.val);
+            t = t.next;
+        }
+        while( !s.empty() ){
+            newList.add(s.pop());
+        }
+        
+        return newList;    
+    }
+}
