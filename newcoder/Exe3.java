@@ -48,7 +48,7 @@ public class Solution {
         ArrayList<Integer> newList = new ArrayList<>();
         ListNode t = listNode;
        
-        while( t != null ){
+        while(t != null){
                 
             s.push(t.val);
             t = t.next;
