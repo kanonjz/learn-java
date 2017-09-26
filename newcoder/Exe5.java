@@ -1,3 +1,5 @@
+//用两个栈来实现队列
+
 package 剑指offer;
 import java.util.*;
 
