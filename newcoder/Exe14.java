@@ -22,7 +22,7 @@ public class Solution {
             return null;
         }
         
-		Stack<ListNode> s = new Stack<ListNode>();
+	Stack<ListNode> s = new Stack<ListNode>();
         
         s.push(head);      
         int count=1;
