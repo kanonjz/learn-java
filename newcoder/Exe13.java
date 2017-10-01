@@ -5,40 +5,27 @@
   
   
   
-/*
-public class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}*/
 import java.util.Stack;
-
-public class Solution {
-	public ListNode FindKthToTail(ListNode head,int k) {
-        
-       	if(head==null){
-            return null;
-        }
-        
-		Stack<ListNode> s = new Stack<ListNode>();
-        
-        s.push(head);      
-        int count=1;
-	    while(head.next!=null){
-	    	head=head.next;
-	    	s.push(head);
-            count++;
-	    }
-	      	
-	    if(k==0||k>count){
-           return null;
-        } 
-	    for(int i=1;i<=(k-1);i++){
-	        s.pop();
-	    }
-	    return s.pop();
-	}
-}
+ 
+ public class Solution {
+     public void reOrderArray(int [] array) {
+         Stack<Integer> s1=new Stack<Integer>();
+         Stack<Integer> s2=new Stack<Integer>();
+         for(int i=array.length-1;i>=0;i--){
+             if(array[i]%2==1){
+                 s1.push(array[i]);
+             }
+             else
+                 s2.push(array[i]);
+         }
+         int count=0;
+         while(!s1.empty()){
+             array[count]=s1.pop();
+             count++;
+         }
+         while(!s2.empty()){
+             array[count]=s2.pop();
+             count++;
+         }
+     }
+ }
