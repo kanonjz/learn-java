@@ -1,26 +1,44 @@
-/**
-public class TreeNode {
-    int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
+/*题目描述：输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字，
+  例如，如果输入如下矩阵： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
+  
+  笔记：这道题有些难。要控制好后两个循环，以应对出现单行单列的情况  */
 
-    public TreeNode(int val) {
-        this.val = val;
 
+
+import java.util.ArrayList;
+public class Solution {
+    public ArrayList<Integer> printMatrix(int [][] matrix) {
+        ArrayList<Integer> a=new ArrayList<Integer>();
+        int row=matrix.length;
+        int col=matrix[0].length;
+        //定义4个关键变量
+        int left=0;
+        int top=0;
+        int right=col-1;
+        int bottom=row-1;
+        
+        while((top<=bottom) && (left<=right)){
+            for(int i=left;i<=right;i++){
+                a.add(matrix[top][i]);
+            }
+            for(int i=top+1;i<=bottom;i++){
+                a.add(matrix[i][right]);
+            }
+            if(bottom>top){
+                for(int i=right-1;i>=left;i--){
+                    a.add(matrix[bottom][i]);
+                }
+            }
+            if(right>left){
+                for(int i=bottom-1;i>top;i--){
+                    a.add(matrix[i][left]); 
+                }
+            }
+            left++;
+            right--;
+            top++;
+            bottom--;
+        }
+        return a;
     }
-
 }
-*/
-链接：https://www.nowcoder.com/questionTerminal/564f4c26aa584921bc75623e48ca3011
-来源：牛客网
-
-class Solution {
-public:
-    void Mirror(TreeNode *p) {
-    if(p){
-            swap(p -> left, p -> right);
-            Mirror(p -> left);
-            Mirror(p -> right);
-        }
-    }
-};
