@@ -10,3 +10,4 @@
 
 # 拓展阅读
 ### [知乎：Java 到底是值传递还是引用传递？](https://www.zhihu.com/question/31203609)
+![集合继承关系](http://images.cnitblog.com/blog/556852/201308/17200016-b868ad987c4947ceb76c42b44887c783.png)
