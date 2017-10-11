@@ -11,6 +11,7 @@
 #### 二叉树：
 [子结构例题](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe17.java) 
 [层次遍历](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe22.java)
+[二叉搜索树](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe23.java)
 
 
 
