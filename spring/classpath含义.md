@@ -1,0 +1,1 @@
+如果是maven工程的话classpath指src/main/resources
