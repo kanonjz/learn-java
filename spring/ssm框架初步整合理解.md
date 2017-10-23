@@ -1,5 +1,5 @@
 ## ssm框架初步整合
-各层的编写顺序：如图所示<br>
+各层的编写顺序：如图所示 <br>
 ![大致流程图](https://github.com/kanonjz/pictures/blob/master/%E7%BB%98%E5%9B%BE1.png)
 #### 关于mapper映射器
 mapper映射器的编写包括两部分：接口和实现接口的xml <br>
