@@ -1,5 +1,5 @@
 ## `synchronized`关键字
-**java提供了两种锁机制，一种是内置的锁`synchronized`，另一种是显示的`Lock`对象**  
+**注：java提供了两种锁机制，一种是内置的锁`synchronized`，另一种是显示的`Lock`对象**  <br><br><br>
 
 `synchronized`可以用来修饰方法和代码段
 
