@@ -51,3 +51,4 @@ static class Node<K,V> implements Map.Entry<K,V> {
 ```
 
 ### Interface Map.Entry<K,V>
+Entry是Map接口中的内部接口；为什么要定义在map内部呢？entry是访问键值关系的入口，是map的入口，访问的是map中的键值对
