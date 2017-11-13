@@ -1,9 +1,9 @@
 # HashMap实现原理
 
 ## 遍历HashMap
-#### 遍历HashMap的键值对
-第一步：通过`entrySet()`方法获取`HashMap`键值对的Set形式  
-第二部：使用`Iterator`迭代器遍历第一步得到的`Set`  
+#### 1. 遍历HashMap的键值对
+第一步：通过`entrySet()`方法获取`HashMap`键值对的Set形式    
+第二步：使用`Iterator`迭代器遍历第一步得到的`Set`  
 ```
 package 剑指offer;
 
@@ -55,7 +55,7 @@ Mahnaz:23.1
 kanon has 1055.4
 ```
 
-#### 遍历HashMap的键
+#### 2. 遍历HashMap的键
 第一步：通过`keySet()`方法获得键的`Set`形式  
 第二部：使用`Iterator`迭代器遍历第一步得到的`Set`
 ```
@@ -101,7 +101,7 @@ Mahnaz
 kanon has 1055.4
 ```
 
-#### 遍历HashMap的值
+#### 3. 遍历HashMap的值
 第一步：通过`values()`方法获得值的`Collection`形式  
 第二部：使用`Iterator`迭代器遍历第一步得到的`Collection`
 ```
