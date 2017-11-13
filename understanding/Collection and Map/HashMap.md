@@ -1,4 +1,21 @@
 # HashMap实现原理
+## 创建HashMap
+构造函数1：默认构造函数
+```
+HashMap()
+```
+构造函数2：指定容量
+```
+HashMap(int initialCapacity)
+```
+构造函数3：传入一个Map
+```
+pubic void HashMap(Map m);
+```
+构造函数4：指定容量和加载因子
+```
+HashMap(int initialCapacity, float loadFactor)
+```
 
 ## 遍历HashMap
 #### 1. 遍历HashMap的键值对
