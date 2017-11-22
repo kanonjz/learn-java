@@ -18,6 +18,8 @@
 # 拓展阅读
 1. [知乎：Java 到底是值传递还是引用传递？](https://www.zhihu.com/question/31203609)
 
-2. ![集合继承关系](https://github.com/kanonjz/pictures/blob/master/java%E9%9B%86%E5%90%88%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
+2. 集合继承关系
+![集合继承关系](https://github.com/kanonjz/pictures/blob/master/java%E9%9B%86%E5%90%88%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
 
-3. ![Java基本类型](http://oyrpkn4bk.bkt.clouddn.com/java%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.JPG)
+3. Java基本类型
+![Java基本类型](http://oyrpkn4bk.bkt.clouddn.com/java%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.JPG)
