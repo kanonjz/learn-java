@@ -1,7 +1,7 @@
 #### native方法  
 简单的理解就是非Java编写的方法，比如C，C++，通过调用这些方法，来与底层的操作系统进行交互
 #### JNI  
-Java Native Interface 即调用native方法的接口  
+Java Native Interface 即调用native方法的接口    
 new出来的对象都存放在堆里，而基本类型存放在虚拟机栈的局部变量表中
   
 <table>
