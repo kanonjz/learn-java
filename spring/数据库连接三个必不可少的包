@@ -1,0 +1,20 @@
+  <!-- spring-jdbc -->
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>4.2.1.RELEASE</version>
+  </dependency>
+  
+  <!-- 数据库的连接池，还有其他的比如c3p0. proxool -->
+  <dependency>
+    <groupId>commons-dbcp</groupId>
+    <artifactId>commons-dbcp</artifactId>
+    <version>1.4</version>
+  </dependency>
+  	
+  <!--Mysql数据库驱动-->
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.41</version>
+  </dependency>
