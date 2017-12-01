@@ -1,4 +1,4 @@
-### 1.新建文件`Test.java`
+### 1. 新建文件`Test.java`
 ```
 import java.util.*;
 
