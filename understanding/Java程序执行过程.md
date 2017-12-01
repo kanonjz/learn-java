@@ -26,7 +26,8 @@ javac Test.java
 ```
 <br>
 生成的Test.class文件<br>
-![](http://oyrpkn4bk.bkt.clouddn.com/Test.class.JPG)
+
+ ![](http://oyrpkn4bk.bkt.clouddn.com/Test.class.JPG)
 
 
 ### 3. 使用下面的命令执行`.class`文件
