@@ -3,7 +3,7 @@
 
 `synchronized`的三种用法
 
-### `synchronized`直接指定加锁对象
+### 1.`synchronized`直接指定加锁对象
 对给定对象加锁，进入同步代码前要获得给定对象的锁
 ```
 package 并发;
@@ -30,7 +30,7 @@ public class FirstThread implements Runnable{
 }
 ```
 
-### `synchronized`作用于非静态方法
+### 2.`synchronized`作用于非静态方法
 相当于对当前对象加锁，进入同步代码前要获得当前对象的锁
 ```
 package 并发;
@@ -55,7 +55,7 @@ public class FirstThread implements Runnable{
 }
 ```
 
-### `synchronized`作用于静态方法
+### 3.`synchronized`作用于静态方法
 相当于对当前类加锁，进入同步代码前要获得当前类的锁
 ```
 package 并发;
