@@ -24,3 +24,5 @@
 
 4. Java基本类型
 ![Java基本类型](http://oyrpkn4bk.bkt.clouddn.com/Java%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.png)
+
+5. `BigInteger`理论上能够表示无线大的数，只要计算机内存足够大，可以用来大数运算，底层用int数组实现的
