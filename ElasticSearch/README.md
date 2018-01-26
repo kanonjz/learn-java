@@ -21,3 +21,9 @@
 }
 ```
 这就意味着你现在已经启动并运行一个 Elasticsearch 节点了，你可以用它做实验了。 单个 节点 可以作为一个运行中的 Elasticsearch 的实例。 而一个 集群 是一组拥有相同 cluster.name 的节点， 他们能一起工作并共享数据，还提供容错与可伸缩性。(当然，一个单独的节点也可以组成一个集群) 你可以在 elasticsearch.yml 配置文件中 修改 cluster.name ，该文件会在节点启动时加载 (这个重启服务后才会生效)。
+
+## 学习资源
+[阮一峰：全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)  
+[Elasticsearch: 权威指南](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  
+[简书：快速入门](https://www.jianshu.com/p/ddee872c69c1)
+
