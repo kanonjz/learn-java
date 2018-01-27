@@ -15,8 +15,31 @@
 
 # Linux下安装Java
 1. Windows下载压缩包到本地，使用filezilla上传到远端
-2. 解压缩包
-
+2. 解压缩包，将解压后的文件移动到/etc/profile
+3. 查看已安装的jdk
+```
+rpm -qa | grep jdk
+```
+卸载旧版的jdk
+```
+rpm -e --nodeps java-1.7.0-openjdk-1.7.0.161-2.6.12.0.el6_9.x86_64
+```
+4. 配置新版jdk的环境变量，编辑文件/etc/profile，在文件末尾添加
+```
+export JAVA_HOME=/usr/java/jdk1.8.0_131
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
+export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+export PATH=$PATH:${JAVA_PATH}
+```
+5. 使用命令让配置生效
+```
+source /etc/profile让profile
+```
+6. 验证安装是否成功
+- 使用javac命令，不会出现command not found错误
+- 使用java -version，出现版本为java version "1.8.0_131"
+- echo $PATH，看看自己刚刚设置的的环境变量配置是否都正确
 
 
 # 拓展阅读
