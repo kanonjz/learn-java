@@ -5,7 +5,7 @@
 ### [补码、位运算符](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe11.java)
 ### [Iterator](http://www.runoob.com/java/collection-iterator.html)
 ### [Queue](http://www.runoob.com/java/data-queue.html)
-
+<br><br><br>
 
 # 数据结构
 ### [斐波那契数列](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe8.java)
@@ -13,7 +13,7 @@
 [子结构例题](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe17.java) 
 [层次遍历](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe22.java)
 [二叉搜索树](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe23.java)
-
+<br><br><br>
 
 # Linux下安装Java
 1. Windows下载压缩包到本地，使用filezilla上传到远端
@@ -42,7 +42,7 @@ source /etc/profile让profile
 - 使用javac命令，不会出现command not found错误
 - 使用java -version，出现版本为java version "1.8.0_131"
 - echo $PATH，看看自己刚刚设置的的环境变量配置是否都正确
-
+<br><br><br>
 
 # 拓展阅读
 1. [知乎：Java 到底是值传递还是引用传递？](https://www.zhihu.com/question/31203609)
