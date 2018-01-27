@@ -24,8 +24,13 @@
 
 ## Linux安装ElasticSearch
 1. 安装Java环境
-2. 用wget命令安装
+2. 用wget命令安装ES
 3. 解压安装包
+4. 启动ES
+```
+./bin/elasticsearch
+```
+5. 开通远程访问。修改config/elasticsearch.yml，去掉network.host的注释，将它的值改成0.0.0.0，然后重新启动ES
 
 ## 学习资源
 [阮一峰：全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)  
