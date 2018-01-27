@@ -13,6 +13,10 @@
 [层次遍历](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe22.java)
 [二叉搜索树](https://github.com/kanonjz/learn-java/blob/master/newcoder/Exe23.java)
 
+# Linux下安装Java
+1. Windows下载压缩包到本地，使用filezilla上传到远端
+2. 解压缩包
+
 
 
 # 拓展阅读
