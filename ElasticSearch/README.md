@@ -30,7 +30,10 @@
 ```
 ./bin/elasticsearch
 ```
-5. 开通远程访问。修改config/elasticsearch.yml，去掉network.host的注释，将它的值改成0.0.0.0，然后重新启动ES
+5. 开通远程访问。修改config/elasticsearch.yml，去掉network.host的注释，将它的值改成本机ip，然后重新启动ES。如
+```
+network.host: 10.96.96.39
+```
 
 ## 学习资源
 [阮一峰：全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)  
