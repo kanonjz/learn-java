@@ -22,7 +22,7 @@
 ```
 这就意味着你现在已经启动并运行一个 Elasticsearch 节点了，你可以用它做实验了。 单个 节点 可以作为一个运行中的 Elasticsearch 的实例。 而一个 集群 是一组拥有相同 cluster.name 的节点， 他们能一起工作并共享数据，还提供容错与可伸缩性。(当然，一个单独的节点也可以组成一个集群) 你可以在 elasticsearch.yml 配置文件中 修改 cluster.name ，该文件会在节点启动时加载 (这个重启服务后才会生效)。
 
-## Linux安装ElasticSearch
+### Linux安装ElasticSearch
 1. 安装Java环境
 2. 用wget命令安装ES
 3. 解压安装包
@@ -37,6 +37,18 @@ network.host: 0.0.0.0
 6. 如果想后台启动ES，则使用如下命令
 ```
 ./elasticsearch -d 
+```
+
+## 安装kibana
+1. 用wget命令安装kibana，并解压
+2. 修改配置文件`vim config/kibana.yml`
+```
+# 将默认配置改成如下：
+
+server.port: 5601
+server.host: "0.0.0.0"
+elasticsearch.url: "http://192.168.2.41:9200"
+kibana.index: ".kibana"
 ```
 
 ## 学习资源
