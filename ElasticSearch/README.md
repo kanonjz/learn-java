@@ -52,7 +52,7 @@ kibana.index: ".kibana"
 ```
 3. 启动kibana
 ```
-.bin//kibana
+.bin/kibana
 ```
 4. 后台启动kibana
 
