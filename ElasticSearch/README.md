@@ -50,6 +50,12 @@ server.host: "0.0.0.0"
 elasticsearch.url: "http://192.168.2.41:9200"
 kibana.index: ".kibana"
 ```
+3. 启动kibana
+```
+.bin//kibana
+```
+4. 后台启动kibana
+
 
 ## 学习资源
 [阮一峰：全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)  
