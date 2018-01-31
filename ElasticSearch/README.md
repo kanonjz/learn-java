@@ -55,6 +55,9 @@ kibana.index: ".kibana"
 .bin/kibana
 ```
 4. 后台启动kibana
+```
+./bin/kibana &
+```
 
 
 ## 学习资源
