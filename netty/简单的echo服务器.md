@@ -1,3 +1,5 @@
+要使用telnet进行连接并测试
+## 代码
 DiscardServerHandler.java
 ```
 package discard;
