@@ -59,6 +59,8 @@ kibana.index: ".kibana"
 ./bin/kibana &
 ```
 
+## python es API
+[官方GitBook](https://elasticsearch-py.readthedocs.io/en/master/index.html)
 
 ## 学习资源
 [阮一峰：全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)  
