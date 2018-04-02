@@ -1,6 +1,6 @@
 ## 安装ElasticSearch
 ### Windows安装ElasticSearch
-1. 安装Java环境
+1. 安装Java8环境
 2. 到官网上下载ES并解压安装包
 3. 运行`bin\elasticsearch.bat`，浏览器打开`http://localhost:9200/`，如果显示如下说明安装成功。
 ```
