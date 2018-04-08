@@ -26,17 +26,17 @@ rpm -qa | grep jdk
 ```
 rpm -e --nodeps java-1.7.0-openjdk-1.7.0.161-2.6.12.0.el6_9.x86_64
 ```
-4. 配置新版jdk的环境变量，编辑文件/etc/profile，在文件末尾添加
+4. 配置新版jdk的环境变量，编辑文件/etc/profile，在文件末尾添加(注意：环境变量是从前往后扫描）
 ```
 export JAVA_HOME=/usr/java/jdk1.8.0_131
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
 export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
-export PATH=$PATH:${JAVA_PATH}
+export PATH=${JAVA_PATH}:$PATH
 ```
 5. 使用命令让配置生效
 ```
-source /etc/profile让profile
+source /etc/profile
 ```
 6. 验证安装是否成功
 - 使用javac命令，不会出现command not found错误
