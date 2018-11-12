@@ -49,9 +49,11 @@ source /etc/profile
 2. [String使用equals方法和==分别比较的是什么？](http://blog.csdn.net/wangdong20/article/details/8566217)
 
 3. 集合继承关系  
+
 ![集合继承关系](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/for-github/java%E9%9B%86%E5%90%88%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
 
 4. Java基本类型
+
 ![Java基本类型](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/for-github/Java%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.png)
 
 5. `BigInteger`理论上能够表示无线大的数，只要计算机内存足够大，可以用来大数运算，底层用int数组实现的
