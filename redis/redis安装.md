@@ -25,7 +25,7 @@ make
 8. 这里有一点不方便的地方，就是你在启动服务之后，控制台就会一直停留在服务启动的状态，你就无法在控制台做任何其他事情，所以我们需要配置redis服务在后台运行。
 这里我们需要修改配置文件`redis.conf`，找到`daemonize`项修改为`yes`，保存并退出
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/for-github/redis-2.JPG)
+![配置](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/for-github/redis-2.JPG)
 
 9. 使用刚才修改过的配置文件启动redis
 ```
